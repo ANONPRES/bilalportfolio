@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilal - Developer Portfolio</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+
+    <style>
+    /* Fira Code Font */
+    @font-face {
+        font-family: 'Fira Code';
+        src: url(https://design.penpot.app/internal/gfonts/font/firacode/v22/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_D1sJVD7Ng.woff2) format('woff2');
+    }
+
+    /* Goldman Font */
+    @font-face {
+        font-family: 'Goldman';
+        src: url(https://design.penpot.app/internal/gfonts/font/goldman/v19/pe0uMIWbN4JFplR2HDVyBw.woff2) format('woff2');
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: #010101;
+        color: #fff;
+        font-family: 'Goldman', sans-serif;
+        line-height: 1.6;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    /* Navigation */
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 1.5rem 0;
+        background: rgba(1, 1, 1, 0.95);
+        backdrop-filter: blur(10px);
+        z-index: 1000;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        list-style: none;
+    }
+
+    .nav-links a {
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Fira Code', monospace;
+        font-size: 1.0rem;
+        position: relative;
+        padding: 0.5rem 1rem;
+        transition: all 0.3s ease;
+    }
+
+    .nav-links a::after {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #c6ffa2;
+        transition: width 0.3s ease;
+    }
+
+    .nav-links a:hover::after {
+        width: 100%;
+    }
+
+    .nav-links a.active {
+        color: #c6ffa2;
+        border: 2px solid #c6ffa2;
+        border-radius: 5px;
+    }
+    .beta {
+        color:#c6ffa2;
+        transform:translateY(-12rem);
+        font-size: 34px;
+    }
+    /* Hero Section */
+    .hero {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .hero h1 {
+        font-size: 4.5rem;
+        margin-bottom: 1.5rem;
+        text-shadow: 0 0 15px rgba(198, 255, 162, 0.3);
+    }
+
+    .hero p {
+        font-size: 1.5rem;
+        max-width: 600px;
+        margin: 0 auto 2rem;
+        color: #ccc;
+    }
+
+    /* About Section */
+    .about {
+        padding: 5rem 0;
+        background: #0a0a0a;
+    }
+
+    .about-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .about-image img {
+        width: 200px;
+        margin-left: 150px;
+        border-radius: 15px;
+        box-shadow: 0 0 30px rgba(198, 255, 162, 0.1);
+    }
+
+    .skills {
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .skill-tag {
+        background: rgba(198, 255, 162, 0.1);
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        border: 1px solid #c6ffa2;
+        font-family: 'Fira Code';
+    }
+    .floating {
+  display: inline-block;
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+    /* Projects Section */
+    .projects {
+        padding: 6rem 0;
+    }
+
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .project-card {
+    display: flex; /* Этого не хватает! */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Или center, если хочешь весь контент по центру */
+    
+    background: #0a0a0a;
+    border-radius: 15px;
+    overflow: hidden; /* Лучше hidden, чтобы не выходил контент */
+    transition: transform 0.3s ease;
+    height: 500px;
+    padding: 1rem;
+}
+
+
+    .project-card:hover {
+        transform: translateY(-10px);
+    }
+
+    .project-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .project-info h3 {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    .project-info  {
+    padding: 1.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    }
+    .project-links {
+        margin-top: 1.5rem;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .cta-button, .project-link {
+            background: rgba(198, 255, 162, 0.1);
+            color: #c6ffa2 !important;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            border: 1px solid #c6ffa2;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+    .cta-button:hover, .project-link:hover {
+        background: rgba(198, 255, 162, 0.2) !important;
+        box-shadow: 0 0 15px rgba(198, 255, 162, 0.3);
+    }
+
+    /* Contact Section */
+    .contact-info {
+            margin-top: 3rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+
+    .contact-item {
+        padding: 1.5rem;
+        background: rgba(198, 255, 162, 0.05);
+        border-radius: 10px;
+        border: 1px solid #c6ffa2;
+    }
+    .contact-item img {
+            width: 40px;
+            margin-bottom: 1rem;
+        }
+    .contact {
+        padding: 5rem 0;
+        background: #0a0a0a;
+    }
+
+    .contact-content {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        background: #1a1a1a;
+        border: 1px solid #333;
+        padding: 1rem;
+        color: white;
+        border-radius: 5px;
+    }
+
+    #modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+#modalOverlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+    .hidden {
+        display: none;
+    }
+
+    #modal {
+        background: #0a0a0a;
+        padding: 30px;
+        border-radius: 20px;
+        position: relative;
+        width: 600px;
+        max-width: 90%;
+        border: 2px solid #c6ffa2;
+    }
+
+    #closeModal {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        font-size: 24px;
+        color: #c6ffa2;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Mobile Styles */
+    @media (max-width: 768px) {
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        .about-content {
+            grid-template-columns: 1fr;
+        }
+
+        .about-image img {
+            margin-left: 0;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .projects-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2 class="beta">BETA</h2>
+            <h1 class="floating">Hi, I'm Bilal</h1>
+            <p>I develop Telegram bots, C# & C++ applications, and modern websites</p>
+            <a href="#projects" class="cta-button">View My Projects</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="your-photo.jpg" 
+                         alt="Bilal" 
+                         class="floating">
+                </div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Passionate developer with expertise in building efficient applications and bots. 
+                        Specializing in C#, C++, and Python.</p>
+                    <div class="skills">
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Telegram API</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Web Development</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project1.jpg" 
+                             alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Telegram Support Bot</h3>
+                        <p>Support bot that connects users with moderators. For online school @jasminealiance_bot</p>
+                        <div class="project-links">
+                            <button class="project-link open-modal-btn"
+                                data-title="Telegram Support Bot"
+                                data-description="This Telegram bot was created for the Jasmine Alliance online school. The bot is needed to connect users and moderators to make it easier to find the right course, lesson, etc. Fact: This is one of my first projects.
+                                Bot username in Telegram: @jasminealiance_bot"
+                                data-image="project1.jpg">
+                                Description
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project2.png" 
+                             alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Telegram Autoregistration</h3>
+                        <p>
+                            Program for automatic registration in the social network Telegram.</p>
+                        <div class="project-links">
+                            <button class="project-link open-modal-btn"
+                                data-title="Telegram Autoregistration App"
+                                data-description="Program for automatic registration in the social network Telegram. Emulator management, different options for saving accounts (TData, session). Converting a mobile session to a desktop one, fully automatic registration, bypassing bans."
+                                data-image="project2.png">
+                                Description
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <h2>And more...</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Window -->
+    <div id="modalOverlay" class="hidden">
+        <div id="modal">
+            <button id="closeModal">&times;</button>
+            <h2 id="modalTitle"></h2>
+            <img id="modalImage" src="" alt="" style="width: 100%; margin: 1rem 0;">
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" rows="5" required></textarea>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+
+                <!-- Добавляем блок с контактами -->
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjYzZmZmEyIiBkPSJNMTIgMEM1LjM3MyAwIDAgNS4zNzMgMCAxMnM1LjM3MyAxMiAxMiAxMnMxMi01LjM3MyAxMi0xMlMxOC42MjcgMCAxMiAwem0tMiA5aDJ2MkgxMHYtMnptMCA0aDJ2NkgxMHYtNnoiLz48L3N2Zz4=" alt="Email">
+                        <h3>Email</h3>
+                        <p>browspxd@gmail.com</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <img src="telegram.png" alt="Telegram">
+                        <h3>Telegram</h3>
+                        <p>@krasdel</p>
+                    </div>
+                    <div class="contact-item">
+                        <img src="discord.png" alt="Discord">
+                        <h3>Discord</h3>
+                        <p>d1cpp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Modal Logic
+        const modalOverlay = document.getElementById('modalOverlay');
+        const closeModal = document.getElementById('closeModal');
+        
+        document.querySelectorAll('.open-modal-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.getElementById('modalTitle').textContent = btn.dataset.title;
+                document.getElementById('modalDescription').textContent = btn.dataset.description;
+                document.getElementById('modalImage').src = btn.dataset.image;
+                modalOverlay.classList.add('active');
+            });
+        });
+
+        // Закрытие модального окна
+        const closeModalHandler = () => modalOverlay.classList.remove('active');
+        
+        closeModal.addEventListener('click', closeModalHandler);
+        modalOverlay.addEventListener('click', (e) => {
+            if(e.target === modalOverlay) closeModalHandler();
+        });
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Active Nav Link
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-links a');
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.pageYOffset >= sectionTop - sectionHeight / 3) {
+                    const currentId = section.getAttribute('id');
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href').includes(currentId)) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        });
+
+        // Form Submission
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            this.reset();
+            alert('Message sent successfully!');
+        });
+    });
+    </script>
+</body>
+</html>

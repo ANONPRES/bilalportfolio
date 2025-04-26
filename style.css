@@ -1,0 +1,91 @@
+
+h1{
+    color: white;
+    margin-left: 400px;
+    font-size: 56px;
+    font-family: Verdana;
+}
+#image-money{
+    position: center;
+    margin-left: 400px;
+    width: 850px;
+    height: 200px;
+}
+#chance{
+    color: white;
+    margin-left: 570px;
+    font-size: 14px;
+    color: red;
+}
+#card-number{
+    margin-left: 850px;
+    width: 400px;
+    height: 30px;
+    font-size: 24px;
+    
+}
+#cardn{
+    color: white;
+    margin-top: -35px;
+    margin-left: 400px;
+    font-size: 19px;
+    font-family: Verdana;
+}
+#card-name{
+    margin-left: 850px;
+    width: 400px;
+    height: 30px;
+    font-size: 24px;
+    
+}
+#cardname{
+    color: white;
+    margin-top: -30px;
+    margin-left: 400px;
+    font-size: 19px;
+    font-family: Verdana;
+}
+#card-date{
+    margin-left: 850px;
+    width: 400px;
+    height: 30px;
+    font-size: 24px;
+    
+}
+#carddate{
+    color: white;
+    margin-top: -25px;
+    margin-left: 400px;
+    font-size: 19px;
+    font-family: Verdana;
+}
+#card-cvv{
+    margin-left: 850px;
+    width: 400px;
+    height: 30px;
+    font-size: 24px;
+    
+}
+#cvv{
+    color: white;
+    margin-top: -25px;
+    margin-left: 400px;
+    font-size: 19px;
+    font-family: Verdana;
+}
+#buttonc{
+    padding: 20px 80px;
+    margin-left: 700px;
+    margin-top: 10px;
+    background-color:green;
+    border : none;
+    border-radius: 17px;
+    color: white;
+    font-size: 14px;
+    text-decoration: ;
+    font-family: Verdana;
+}
+body{
+    background-image: url(sigma.gif);
+    background-repeat: repeat;
+}
