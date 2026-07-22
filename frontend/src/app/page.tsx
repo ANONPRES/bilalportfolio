@@ -19,8 +19,8 @@ import { GlassCard } from "@/components/GlassCard";
 const features = [
   {
     icon: ScanFace,
-    title: "468 Landmarks",
-    copy: "MediaPipe Face Mesh maps detailed facial geometry from a single photo.",
+    title: "Face Mesh Landmarks",
+    copy: "MediaPipe Face Mesh maps hundreds of facial landmarks from a single photo.",
   },
   {
     icon: Ratio,
