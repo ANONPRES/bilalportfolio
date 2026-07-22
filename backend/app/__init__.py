@@ -1,0 +1,1 @@
+"""FaceHarmony AI backend application package."""
