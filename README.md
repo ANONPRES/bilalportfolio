@@ -90,6 +90,36 @@ Set the API base URL in `.env.local`:
 NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
 
+## Test on a phone (same Wi‑Fi)
+
+1. Find your computer’s LAN IP:
+   - macOS/Linux: `ipconfig getifaddr en0` or `hostname -I`
+   - Windows: `ipconfig` → IPv4 address (e.g. `192.168.1.42`)
+2. Put phone and computer on the **same Wi‑Fi**.
+3. In `frontend/.env.local` set the API to that IP:
+
+```env
+NEXT_PUBLIC_API_URL=http://192.168.1.42:8000
+```
+
+4. Start both servers so they listen on the network:
+
+```bash
+# Backend
+cd backend && source .venv/bin/activate
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+
+# Frontend (another terminal)
+cd frontend && npm run dev:lan
+```
+
+5. On the phone open: `http://192.168.1.42:3000`
+
+**Notes**
+- Use **Browse files / upload a photo** on mobile HTTP — the in-browser camera often needs HTTPS.
+- If the page loads but analyze fails, check that the phone can reach `:8000` and that your firewall allows ports `3000` and `8000`.
+- For camera + HTTPS, expose the app with a tunnel (e.g. Cloudflare Tunnel / ngrok) and point `NEXT_PUBLIC_API_URL` at the HTTPS API URL.
+
 ## Overall score weights
 
 | Metric | Weight |
