@@ -16,6 +16,7 @@ dist/
 .turbo/
 npm-debug.log*
 .env*.local
+!.env.example
 
 # OS / IDE
 .DS_Store
