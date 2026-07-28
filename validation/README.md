@@ -2,15 +2,17 @@
 
 Кандидат на проверку спроса, **не** на разработку MVP.
 
-Полный разбор рынка: [`../research/MARKET_RESEARCH.md`](../research/MARKET_RESEARCH.md)
+- Рынок: [`../research/MARKET_RESEARCH.md`](../research/MARKET_RESEARCH.md)
+- **Growth/Sales пакет:** [`SALES_PLAYBOOK.md`](SALES_PLAYBOOK.md) — ICP, оффер, сообщения, интервью, PASS/FAIL
+- **100 prospects:** [`PROSPECTS_100.md`](PROSPECTS_100.md) · [`prospects_100.csv`](prospects_100.csv)
 
 ## За 3–7 дней
 
 1. Задеплойте `validation/` (любой static host).
 2. Подключите сбор email (Formspree / Buttondown / Tally) вместо localStorage в `app.js`.
-3. Отправьте 50 холодных сообщений (шаблоны ниже).
-4. Проведите ≥10 интервью.
-5. Сверьте с pass/fail критериями из research-дока.
+3. Отправьте **50** холодных сообщений только `fit=high` (шаблоны в playbook).
+4. Проведите интервью по сценарию 15 мин.
+5. Сверьте с PASS/FAIL в `SALES_PLAYBOOK.md` — без «ещё недельки» на ощущениях.
 
 ## Холодные сообщения
 
