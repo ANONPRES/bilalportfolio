@@ -1,0 +1,902 @@
+[
+  {
+    "name": "Ganiev Marketing",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://ganiev-marketing.ru/",
+    "fit": "high",
+    "find": "Contact на сайте / LinkedIn основателя",
+    "notes": "~12 чел; SEO+контекст+SMM; комплексные отчёты"
+  },
+  {
+    "name": "nifti",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://nifti.ru/",
+    "fit": "high",
+    "find": "Форма на сайте / TG",
+    "notes": "таргет+SMM+SEO; SMB; ежемесячные отчёты"
+  },
+  {
+    "name": "НАДО-маркетинг",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://nado-marketing.ru/",
+    "fit": "high",
+    "find": "сайт",
+    "notes": "бутиковое СПб; SEO+Директ; monthly report"
+  },
+  {
+    "name": "PrivateSEO",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://private-seo.ru/",
+    "fit": "high",
+    "find": "сайт",
+    "notes": "SEO; KPI в договоре; ежемесячная отчётность"
+  },
+  {
+    "name": "Southmedia",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://southmedia.ru/",
+    "fit": "high",
+    "find": "сайт / LinkedIn",
+    "notes": "региональное digital; ближе к ICP по размеру"
+  },
+  {
+    "name": "Сеобит",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://seobit.ru/",
+    "fit": "high",
+    "find": "Workspace + сайт",
+    "notes": "SEO; активны на тендерах"
+  },
+  {
+    "name": "Alekzo",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://alekzo.ru/",
+    "fit": "high",
+    "find": "Workspace + сайт",
+    "notes": "SEO boutique"
+  },
+  {
+    "name": "SEO Lebedev",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://seolebedev.ru/",
+    "fit": "high",
+    "find": "Workspace + сайт",
+    "notes": "SEO"
+  },
+  {
+    "name": "HEIGHT LINE",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://heightline.ru/",
+    "fit": "high",
+    "find": "сайт",
+    "notes": "камерная performance-команда"
+  },
+  {
+    "name": "R52.RU",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://r52.ru/",
+    "fit": "high",
+    "find": "сайт",
+    "notes": "региональное digital"
+  },
+  {
+    "name": "MediaGuru",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://mediaguru.ru/",
+    "fit": "high",
+    "find": "сайт",
+    "notes": "SEO/digital"
+  },
+  {
+    "name": "Intelsib",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://intelsib.ru/",
+    "fit": "high",
+    "find": "сайт",
+    "notes": "SEO Новосибирск"
+  },
+  {
+    "name": "Optimism.ru",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://optimism.ru/",
+    "fit": "high",
+    "find": "сайт",
+    "notes": "digital"
+  },
+  {
+    "name": "IT-Agency",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://it-agency.ru/",
+    "fit": "high",
+    "find": "сайт",
+    "notes": "маркетинг/аналитика; ценят отчёты"
+  },
+  {
+    "name": "Rocket10",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://rocket10.ru/",
+    "fit": "high",
+    "find": "сайт",
+    "notes": "performance"
+  },
+  {
+    "name": "MST Digital Agency",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://mst.digital/",
+    "fit": "high",
+    "find": "сайт",
+    "notes": "digital"
+  },
+  {
+    "name": "WebCanape",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://webcanape.ru/",
+    "fit": "high",
+    "find": "сайт",
+    "notes": "web+marketing"
+  },
+  {
+    "name": "VICTORY group",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://victory-group.ru/",
+    "fit": "high",
+    "find": "Workspace",
+    "notes": "performance"
+  },
+  {
+    "name": "Mediacontext",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://mediacontext.ru/",
+    "fit": "high",
+    "find": "Workspace",
+    "notes": "контекст/performance"
+  },
+  {
+    "name": "Акцент на результат",
+    "type": "agency",
+    "geo": "RU",
+    "website": "search: Акцент на результат агентство",
+    "fit": "high",
+    "find": "поиск + LinkedIn",
+    "notes": "performance-фокус"
+  },
+  {
+    "name": "ThrivePOP",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://thrivepop.com/",
+    "fit": "high",
+    "find": "Clutch + LinkedIn founder",
+    "notes": "Clutch small-business; 10–49"
+  },
+  {
+    "name": "ScaledOn",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://scaledon.com/",
+    "fit": "high",
+    "find": "Clutch + LinkedIn",
+    "notes": "Amazon+PPC+SEO"
+  },
+  {
+    "name": "farsiight",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://farsiight.com/",
+    "fit": "high",
+    "find": "Clutch",
+    "notes": "US small digital"
+  },
+  {
+    "name": "SimpleTiger LLC",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://simpletiger.com/",
+    "fit": "high",
+    "find": "Clutch + LinkedIn",
+    "notes": "SEO boutique"
+  },
+  {
+    "name": "Jives Media",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://jivesmedia.com/",
+    "fit": "high",
+    "find": "Clutch + LinkedIn",
+    "notes": "PPC/SEO boutique"
+  },
+  {
+    "name": "Upward Engine",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://upwardengine.com/",
+    "fit": "high",
+    "find": "сайт / LinkedIn",
+    "notes": "SEO"
+  },
+  {
+    "name": "M3.agency",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://m3.agency/",
+    "fit": "high",
+    "find": "сайт",
+    "notes": "boutique"
+  },
+  {
+    "name": "Konstruct Digital",
+    "type": "agency",
+    "geo": "CA",
+    "website": "https://konstructdigital.com/",
+    "fit": "high",
+    "find": "сайт",
+    "notes": "digital boutique"
+  },
+  {
+    "name": "Taktical Digital",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://taktical.com/",
+    "fit": "high",
+    "find": "сайт",
+    "notes": "digital"
+  },
+  {
+    "name": "BlueTuskr",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://bluetuskr.com/",
+    "fit": "high",
+    "find": "сайт",
+    "notes": "PPC/Amazon boutique"
+  },
+  {
+    "name": "Social Surge Marketing",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://socialsurgemarketing.com/",
+    "fit": "high",
+    "find": "сайт; eric@socialsurgemarketing.com",
+    "notes": "Milwaukee; SEO+PPC; 11–50"
+  },
+  {
+    "name": "Vertz Marketing",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://vertzmarketing.com/",
+    "fit": "high",
+    "find": "info@vertzmarketing.com",
+    "notes": "11–50; SEO+PPC"
+  },
+  {
+    "name": "Agency Jet",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://agencyjet.com/",
+    "fit": "high",
+    "find": "сайт",
+    "notes": "SEO+PPC; 10–49"
+  },
+  {
+    "name": "Corberry",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://corberry.com/",
+    "fit": "high",
+    "find": "hello@corberry.com",
+    "notes": "SEO+PPC; 11–50"
+  },
+  {
+    "name": "Rocket Clicks",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://rocketclicks.com/",
+    "fit": "high",
+    "find": "info@rocketclicks.com",
+    "notes": "PPC+SEO; 10–49"
+  },
+  {
+    "name": "OuterBox",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://www.outerboxdesign.com/",
+    "fit": "high",
+    "find": "сайт",
+    "notes": "SEO/digital Ohio"
+  },
+  {
+    "name": "HawkSEM",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://hawksem.com/",
+    "fit": "high",
+    "find": "Clutch / LinkedIn",
+    "notes": "SEM/SEO"
+  },
+  {
+    "name": "Black Propeller",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://blackpropeller.com/",
+    "fit": "high",
+    "find": "Clutch",
+    "notes": "PPC focus"
+  },
+  {
+    "name": "Volume Nine",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://volumenine.com/",
+    "fit": "high",
+    "find": "Clutch",
+    "notes": "digital"
+  },
+  {
+    "name": "BrandLume Inc.",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://brandlume.com/",
+    "fit": "high",
+    "find": "Clutch",
+    "notes": "digital marketing"
+  },
+  {
+    "name": "7gex — частный SEO",
+    "type": "freelancer",
+    "geo": "RU",
+    "website": "https://7gex.com/",
+    "fit": "high",
+    "find": "форма на сайте",
+    "notes": "max 5–6 клиентов; отчёты раз в 2 недели — ПРЯМОЙ ICP"
+  },
+  {
+    "name": "DirectSEO — Евгений Довженко",
+    "type": "freelancer",
+    "geo": "RU",
+    "website": "https://direct-seo.ru/",
+    "fit": "high",
+    "find": "сайт",
+    "notes": "частный SEO; ежемесячная отчётность"
+  },
+  {
+    "name": "SEO-фрилансер (FL.ru Top)",
+    "type": "freelancer",
+    "geo": "RU",
+    "website": "https://www.fl.ru/",
+    "fit": "high",
+    "find": "FL.ru: SEO + «ежемесячные отчёты»",
+    "notes": "взять 10 профилей с retainer"
+  },
+  {
+    "name": "Директолог-фрилансер",
+    "type": "freelancer",
+    "geo": "RU",
+    "website": "https://kwork.ru/",
+    "fit": "high",
+    "find": "Kwork / TG чаты директологов",
+    "notes": "3–15 кабинетов; отчёты в Sheets"
+  },
+  {
+    "name": "Таргетолог VK/Meta freelancer",
+    "type": "freelancer",
+    "geo": "RU",
+    "website": "TG чаты таргетологов",
+    "fit": "med",
+    "find": "TG + TenChat",
+    "notes": "слабее GA4, но отчётная боль есть"
+  },
+  {
+    "name": "Google Ads freelancer Top Rated",
+    "type": "freelancer",
+    "geo": "EN",
+    "website": "https://www.upwork.com/",
+    "fit": "high",
+    "find": "Upwork: Google Ads + monthly reporting",
+    "notes": "просить 15-min chat"
+  },
+  {
+    "name": "SEO consultant 1-person UK/EU",
+    "type": "freelancer",
+    "geo": "EU",
+    "website": "https://clutch.co/seo-firms",
+    "fit": "high",
+    "find": "Clutch consultants filter 1–9 emp",
+    "notes": "ideal"
+  },
+  {
+    "name": "Fractional CMO с 4–8 клиентами",
+    "type": "freelancer",
+    "geo": "EN",
+    "website": "LinkedIn",
+    "fit": "high",
+    "find": "LinkedIn: fractional CMO reporting",
+    "notes": "сами пишут board-ready updates"
+  },
+  {
+    "name": "Analytics freelancer (GA4)",
+    "type": "freelancer",
+    "geo": "EN",
+    "website": "Upwork / LinkedIn",
+    "fit": "high",
+    "find": "«GA4 reporting for agencies»",
+    "notes": "часто делают white-label отчёты для агентств"
+  },
+  {
+    "name": "Performance marketer solo (CIS)",
+    "type": "freelancer",
+    "geo": "KZ/UZ/BY",
+    "website": "LinkedIn / TenChat",
+    "fit": "high",
+    "find": "поиск «performance маркетолог» + агентство одного",
+    "notes": "тот же pain"
+  },
+  {
+    "name": "Head of Marketing SMB ecom RU",
+    "type": "marketer",
+    "geo": "RU",
+    "website": "HH / LinkedIn",
+    "fit": "med",
+    "find": "LinkedIn: Head of Marketing + ecom + 50–200 чел",
+    "notes": "внутренние отчёты CEO/собственнику"
+  },
+  {
+    "name": "Маркетолог в сети клиник",
+    "type": "marketer",
+    "geo": "RU",
+    "website": "LinkedIn",
+    "fit": "med",
+    "find": "«маркетолог» + клиника/сеть",
+    "notes": "отчёты собственнику; Яндекс+GA"
+  },
+  {
+    "name": "Marketing manager SaaS seed",
+    "type": "marketer",
+    "geo": "EN",
+    "website": "LinkedIn",
+    "fit": "med",
+    "find": "SaaS marketing manager + board report",
+    "notes": "ежемесячный narrative для founders"
+  },
+  {
+    "name": "Владелец интернет-магазина (WB+сайт)",
+    "type": "smb_owner",
+    "geo": "RU",
+    "website": "TG селлер-чаты",
+    "fit": "low",
+    "find": "не primary ICP",
+    "notes": "покупает агентство/фрилансера — влиять косвенно"
+  },
+  {
+    "name": "Владелец сети салонов",
+    "type": "smb_owner",
+    "geo": "RU",
+    "website": "2GIS / Яндекс Бизнес",
+    "fit": "low",
+    "find": "не primary",
+    "notes": "нужен отчёт от подрядчика"
+  },
+  {
+    "name": "Founder DTC brand US",
+    "type": "smb_owner",
+    "geo": "US",
+    "website": "LinkedIn",
+    "fit": "low",
+    "find": "если платит retainer agency — спросить кто пишет report",
+    "notes": "косвенный"
+  },
+  {
+    "name": "Molinos",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://molinos.ru/",
+    "fit": "med",
+    "find": "сайт",
+    "notes": "digital"
+  },
+  {
+    "name": "Nimax",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://nimax.ru/",
+    "fit": "med",
+    "find": "сайт",
+    "notes": "design+marketing"
+  },
+  {
+    "name": "Smirnov.Marketing",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://smirnov.marketing/",
+    "fit": "med",
+    "find": "сайт",
+    "notes": "маркетинг"
+  },
+  {
+    "name": "Leaders Factory",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://leadersfactory.ru/",
+    "fit": "med",
+    "find": "сайт",
+    "notes": "маркетинг"
+  },
+  {
+    "name": "Progression",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://progression.ru/",
+    "fit": "med",
+    "find": "сайт",
+    "notes": "digital"
+  },
+  {
+    "name": "Digital Alliance",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://digitalalliance.ru/",
+    "fit": "med",
+    "find": "сайт",
+    "notes": "digital"
+  },
+  {
+    "name": "TRAFFIC",
+    "type": "agency",
+    "geo": "RU",
+    "website": "search Traffic digital agency RU",
+    "fit": "med",
+    "find": "LinkedIn",
+    "notes": "performance"
+  },
+  {
+    "name": "Moka",
+    "type": "agency",
+    "geo": "Intl/RU",
+    "website": "https://moka.pro/",
+    "fit": "med",
+    "find": "сайт",
+    "notes": "data-driven performance"
+  },
+  {
+    "name": "Elit-Web",
+    "type": "agency",
+    "geo": "UA",
+    "website": "https://elit-web.ua/",
+    "fit": "med",
+    "find": "сайт",
+    "notes": "SEO/PPC"
+  },
+  {
+    "name": "Ninja Promo",
+    "type": "agency",
+    "geo": "Intl",
+    "website": "https://ninjapromo.io/",
+    "fit": "med",
+    "find": "сайт",
+    "notes": "проверить размер команды"
+  },
+  {
+    "name": "Hotspex Media",
+    "type": "agency",
+    "geo": "CA",
+    "website": "https://hotspexmedia.com/",
+    "fit": "med",
+    "find": "Clutch",
+    "notes": "media/digital"
+  },
+  {
+    "name": "ROAST",
+    "type": "agency",
+    "geo": "US/EU",
+    "website": "https://roast.agency/",
+    "fit": "med",
+    "find": "LinkedIn",
+    "notes": "marketing"
+  },
+  {
+    "name": "Caffeine Marketing",
+    "type": "agency",
+    "geo": "US",
+    "website": "search Clutch",
+    "fit": "med",
+    "find": "Clutch",
+    "notes": "marketing"
+  },
+  {
+    "name": "Ignite Digital",
+    "type": "agency",
+    "geo": "CA",
+    "website": "https://ignitedigital.com/",
+    "fit": "med",
+    "find": "сайт",
+    "notes": "SEO — проверить size"
+  },
+  {
+    "name": "Acadia",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://www.acadia.io/",
+    "fit": "med",
+    "find": "Clutch",
+    "notes": "verify size"
+  },
+  {
+    "name": "Major Tom",
+    "type": "agency",
+    "geo": "CA",
+    "website": "https://www.major-tom.com/",
+    "fit": "med",
+    "find": "Clutch",
+    "notes": "mid-size risk"
+  },
+  {
+    "name": "EvenDigit",
+    "type": "agency",
+    "geo": "Intl",
+    "website": "search EvenDigit Clutch",
+    "fit": "med",
+    "find": "Clutch",
+    "notes": "digital"
+  },
+  {
+    "name": "SUBE Digital Agency",
+    "type": "agency",
+    "geo": "Intl",
+    "website": "search SUBE Digital Clutch",
+    "fit": "med",
+    "find": "Clutch",
+    "notes": "digital"
+  },
+  {
+    "name": "Exter Media",
+    "type": "agency",
+    "geo": "US",
+    "website": "search Exter Media Clutch",
+    "fit": "med",
+    "find": "Clutch",
+    "notes": "media"
+  },
+  {
+    "name": "Verbsz Marketing",
+    "type": "agency",
+    "geo": "US",
+    "website": "search Verbsz Clutch",
+    "fit": "med",
+    "find": "Clutch",
+    "notes": "marketing"
+  },
+  {
+    "name": "Julius Connected 2 Grow",
+    "type": "agency",
+    "geo": "Intl",
+    "website": "search Clutch",
+    "fit": "med",
+    "find": "Clutch",
+    "notes": "growth"
+  },
+  {
+    "name": "Top Growth Marketing INC",
+    "type": "agency",
+    "geo": "US",
+    "website": "search Clutch",
+    "fit": "med",
+    "find": "Clutch / LinkedIn",
+    "notes": "growth"
+  },
+  {
+    "name": "Human Digital",
+    "type": "agency",
+    "geo": "Intl",
+    "website": "search Clutch",
+    "fit": "med",
+    "find": "Clutch",
+    "notes": "digital"
+  },
+  {
+    "name": "Digital Nomads HQ",
+    "type": "agency",
+    "geo": "Intl",
+    "website": "search Clutch",
+    "fit": "med",
+    "find": "Clutch",
+    "notes": "digital"
+  },
+  {
+    "name": "Brew City Marketing",
+    "type": "agency",
+    "geo": "US",
+    "website": "search Milwaukee",
+    "fit": "med",
+    "find": "сайт",
+    "notes": "local boutique"
+  },
+  {
+    "name": "Granular Marketing",
+    "type": "agency",
+    "geo": "US",
+    "website": "search Milwaukee",
+    "fit": "med",
+    "find": "сайт",
+    "notes": "performance"
+  },
+  {
+    "name": "Lightburn",
+    "type": "agency",
+    "geo": "US",
+    "website": "search Lightburn marketing",
+    "fit": "med",
+    "find": "сайт",
+    "notes": "digital"
+  },
+  {
+    "name": "Completo",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://www.completo.ru/",
+    "fit": "med",
+    "find": "сайт",
+    "notes": "есть тяжёлая отчётность; команда больше ICP"
+  },
+  {
+    "name": "Ingate Group",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://www.ingate.ru/",
+    "fit": "low",
+    "find": "skip first wave",
+    "notes": "своя аналитика/отдел"
+  },
+  {
+    "name": "iConText",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://www.icontext.ru/",
+    "fit": "low",
+    "find": "skip",
+    "notes": "крупное"
+  },
+  {
+    "name": "Demis Group",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://www.demis.ru/",
+    "fit": "low",
+    "find": "skip",
+    "notes": "крупное SEO"
+  },
+  {
+    "name": "Kokoc Group",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://kokoc.com/",
+    "fit": "low",
+    "find": "skip",
+    "notes": "холдинг"
+  },
+  {
+    "name": "Adventum",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://adventum.ru/",
+    "fit": "low",
+    "find": "skip",
+    "notes": "performance large"
+  },
+  {
+    "name": "AGIMA",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://www.agima.ru/",
+    "fit": "low",
+    "find": "skip",
+    "notes": "крупное"
+  },
+  {
+    "name": "KINETICA",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://kinetica.su/",
+    "fit": "low",
+    "find": "skip",
+    "notes": "крупное"
+  },
+  {
+    "name": "Realweb",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://realweb.ru/",
+    "fit": "low",
+    "find": "skip",
+    "notes": "крупное"
+  },
+  {
+    "name": "WebFX",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://www.webfx.com/",
+    "fit": "low",
+    "find": "skip",
+    "notes": "enterprise"
+  },
+  {
+    "name": "SmartSites",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://www.smartsites.com/",
+    "fit": "low",
+    "find": "skip",
+    "notes": "крупное"
+  },
+  {
+    "name": "Workspace SEO каталог — очередь #1",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://workspace.ru/seo/",
+    "fit": "high",
+    "find": "взять следующие 5 карточек 2–15 чел",
+    "notes": "добрать high-fit"
+  },
+  {
+    "name": "Workspace SEO каталог — очередь #2",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://workspace.ru/seo/",
+    "fit": "high",
+    "find": "карточки 6–10",
+    "notes": "добрать"
+  },
+  {
+    "name": "Workspace Performance — очередь #1",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://workspace.ru/performance-marketing/",
+    "fit": "high",
+    "find": "PRO/верифицированные малые",
+    "notes": "добрать"
+  },
+  {
+    "name": "Workspace Performance — очередь #2",
+    "type": "agency",
+    "geo": "RU",
+    "website": "https://workspace.ru/performance-marketing/",
+    "fit": "high",
+    "find": "следующие 5",
+    "notes": "добрать"
+  },
+  {
+    "name": "Clutch SEO 2–9 employees — batch A",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://clutch.co/seo-firms",
+    "fit": "high",
+    "find": "filter employees 2–9",
+    "notes": "идеальный ICP batch"
+  },
+  {
+    "name": "Clutch SEO 10–49 employees — batch B",
+    "type": "agency",
+    "geo": "US",
+    "website": "https://clutch.co/seo-firms",
+    "fit": "high",
+    "find": "filter 10–49",
+    "notes": "batch"
+  }
+]
