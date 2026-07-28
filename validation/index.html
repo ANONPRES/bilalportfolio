@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ReportBrief — клиентский отчёт агентства за 5 минут</title>
+  <meta name="description" content="GA4 и Google Ads → короткий клиентский PDF: что произошло, почему, что делать дальше. Без дашборд-цирка." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+
+  <header class="top">
+    <div class="brand">ReportBrief</div>
+    <a class="top-link" href="#waitlist">В waitlist</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Для digital-агентств с 3–20 retainer-клиентами</p>
+      <h1>Клиентский отчёт<br />за 5 минут, не за 5 часов</h1>
+      <p class="lede">
+        Подключите GA4 (и Google Ads). Получите короткий PDF:
+        <em>что произошло · почему · что делать дальше</em> —
+        текстом, который клиент реально читает. Это не ещё один дашборд.
+      </p>
+      <form class="cta" id="waitlist" action="#" method="post">
+        <label class="sr-only" for="email">Email</label>
+        <input id="email" name="email" type="email" required placeholder="you@agency.com" autocomplete="email" />
+        <button type="submit">Хочу пилот за $49</button>
+      </form>
+      <p class="fine">Без спама. Письмо только когда откроется пилот на 10 агентств.</p>
+      <p class="status" id="form-status" hidden></p>
+    </section>
+
+    <section class="proof">
+      <blockquote>
+        «Reporting takes more time than actual campaign work.»
+        <cite>— повторяющаяся жалоба media buyers / agency owners</cite>
+      </blockquote>
+      <p class="proof-note">
+        Дашборды (DashThis, AgencyAnalytics, Looker) уже есть.
+        Клиенты всё равно просят два абзаца смысла. Их пишут руками в полночь.
+      </p>
+    </section>
+
+    <section class="offer">
+      <h2>Оффер пилота</h2>
+      <ul>
+        <li>GA4 → narrative PDF на русском или английском</li>
+        <li>Опционально Google Ads за тот же период</li>
+        <li>Ваш tone of voice (3–5 примеров прошлых отчётов)</li>
+        <li>White-label: ваш логотип, без нашего бренда</li>
+        <li><strong>$49/мес — до 5 клиентов</strong> · <strong>$99/мес — до 15</strong></li>
+      </ul>
+      <p class="not">Не входит в v1: Meta Ads, TikTok, 40 коннекторов, «AI chat», CRM.</p>
+    </section>
+
+    <section class="who">
+      <h2>Кому это</h2>
+      <div class="grid">
+        <article>
+          <h3>Да</h3>
+          <p>Performance / SEO / content-агентство. Есть retainer. Отчёты — боль. Уже платите за дашборд или собираете Sheets.</p>
+        </article>
+        <article>
+          <h3>Нет</h3>
+          <p>Соло-фрилансер с 1 клиентом. Enterprise с data-командой. Те, кому достаточно скрина из GA4.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="validate">
+      <h2>Сейчас — проверка спроса, не продукт</h2>
+      <p>
+        Код писать рано. Если наберём 5 агентств, готовых к платному пилоту —
+        соберём узкий MVP. Если нет — закроем идею и не будем тратить ваше и наше время.
+      </p>
+      <a class="secondary" href="mailto:hello@reportbrief.dev?subject=ReportBrief%20pilot">Написать напрямую</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>ReportBrief · валидация спроса · 2026</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
